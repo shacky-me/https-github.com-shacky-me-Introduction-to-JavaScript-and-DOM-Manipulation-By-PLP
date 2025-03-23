@@ -1,0 +1,30 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #e2d9d9;
+}
+
+/* Styling for the box */
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  transition: 0.3s;
+}
+
+.btn-new {
+  border-radius: 20px;
+  padding: 8px;
+}
+
+/* Hidden class to toggle visibility */
+.hidden {
+  display: none;
+}
